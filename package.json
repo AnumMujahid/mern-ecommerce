@@ -4,6 +4,10 @@
   "description": "ecommerce application",
   "main": "server.js",
   "type": "module",
+  "engines": {
+    "node": "15.x",
+    "npm": "7.x"
+  },
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
